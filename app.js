@@ -10,7 +10,7 @@ var db = firebase.firestore();
 
 //Agregar documentos
 function guardar(){
-    var cliente = document.getElementById('cliente').value;
+    var cliente = document.getElementById('cliente').value; /* Tiene que Ingresar un Valor Fijo prdefinido en este caso "Morgan"*/
     var nombre = document.getElementById('nombre').value;
     var apellido = document.getElementById('apellido').value;
     var dni = document.getElementById('dni').value;
